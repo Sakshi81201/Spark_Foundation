@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+         
+#home {
+    background-image: url(https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG9vciUyMGNoaWxkfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    background-position-y: 40px;
+}
+            
+#home2 {
+    background-color: rgba(0, 0, 0, 0.7 );
+    background-size: cover;
+    height: 100vh;
+    z-index: 1;
+}
+
+.navigation {
+    background-color: rgba(0, 0, 0, 0.75);
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.nav1 {
+    font-size: 25px;
+}
+
+.text {
+    margin-top: 20%;
+    color: white;
+    font-size: 20px;
+}
